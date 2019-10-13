@@ -7,14 +7,14 @@ function destructivelyAppendKitten (kittens) {
 kittens.push("ralph")
 return kittens ();
 }
-function destructivelyPrependKitten ("kittens"){
+function destructivelyPrependKitten (kittens){
 kittens.unshift("Bob")
 return kittens();
 }
-function destructivelyremovelastkittens("kittens"){
+function destructivelyremovelastkittens(kittens){
   return kittens.pop();
 }
-function destructivelyremovefirstkittens ("kittens"){
+function destructivelyremovefirstkittens (kittens){
   return kittens.shift()
 }
 function  appendKitten (name){
