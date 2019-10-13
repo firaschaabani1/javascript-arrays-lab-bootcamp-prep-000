@@ -20,13 +20,13 @@ function destructivelyremovefirstkittens(kittens){
    kittens.shift()
    return kittens()
 }
-function  appendKitten (name){
+function  appendKitten (kittens){
   return kittens ()
 }
-function prependKitten(name) {
+function prependKitten(kittens) {
   return kittens ()
 }
-function removelastKitten() {
+function removelastKitten (kittens) {
  kittens.pop ()
  return kittens ()
  console.log (kittens)
